@@ -1,0 +1,43 @@
+container{
+    border: solid-black;
+    margin: 2px;
+  
+header  }
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: rgb(133, 125, 240);
+    text-shadow: 2px 2px;
+
+
+}
+.Column1{
+    float: left;
+    width: 33.33%;
+    height: 500px;
+    border: solid-black
+    color: white;
+    background: #777;
+    margin: 0;
+    
+}
+.Column2{
+  float: right;
+  width: 66.67%%;
+  height: 500px;
+  border: solid-black
+  color: white;
+  padding: 0px
+}  
+/* media queries responsiveness*/  
+@media screen and (max-width: 980px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 640px) {
+  
+
