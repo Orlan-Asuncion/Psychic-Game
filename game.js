@@ -37,13 +37,13 @@ var computerChoice = Alphabeth[math.floor(Math.random()* Alphabeth.length)];
      "<p>Wins: " + wins + "</p>" +
      "<p>Losses: " + losses + "</p>" +
      "<p>Guesses Left: " + numGuesses + "</p>" +
-     "<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>
+     "<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>" +
       document.getElementById("results").innerHTML = html;
     
     //Display the user and computer guesses, and wins/losses/ties
     
     winsText.textContent = 'Wins:' +wins;
     lossesText.textContent = "Losses:" + losses;
-    guessesLeftText.textContent = "Guesses Left" + guessesLeft;
+    guessesLeftText.textContent = "Guesses Left:" + guessesLeft;
     yourGuessesText.textcontent ="Your guesses so far: + yourGuesses;
 }
