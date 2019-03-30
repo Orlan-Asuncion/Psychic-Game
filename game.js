@@ -45,5 +45,5 @@ var computerChoice = Alphabeth[math.floor(Math.random()* Alphabeth.length)];
     winsText.textContent = 'Wins:' +wins;
     lossesText.textContent = "Losses:" + losses;
     guessesLeftText.textContent = "Guesses Left:" + guessesLeft;
-    yourGuessesText.textcontent ="Your guesses so far: + yourGuesses;
+    yourGuessesText.textcontent ="Your guesses so far:" + yourGuesses;
 }
